@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Time</title>
+    <style>
+        body{
+            background-color: aqua;
+            background-image: url("history.jpg");
+        }
+        a{
+            background-color: darkcyan;
+            display: inline-block;
+            padding: 16px 8px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: azure;
+        }
+
+        p{
+            background-color: antiquewhite;
+            border: 3px solid #000;
+            display: inline-block;
+            padding: 10px 40px;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 20px;
+            color:#000;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <a style="border-radius: 8px;" href="#" onclick="document.getElementById('date_field').innerHTML = Date()">PRINT DATE</a>
+        <br>
+        <p style="border-radius: 12px;" id="date_field">Date field</p>
+    </center>
+</body>
+</html>
